@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		613897421CCF1A490045A586 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 613897411CCF1A490045A586 /* main.m */; };
+		613897451CCF1A490045A586 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 613897441CCF1A490045A586 /* AppDelegate.m */; };
+		613897481CCF1A490045A586 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 613897471CCF1A490045A586 /* ViewController.m */; };
+		6138974B1CCF1A490045A586 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 613897491CCF1A490045A586 /* Main.storyboard */; };
+		6138974D1CCF1A490045A586 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6138974C1CCF1A490045A586 /* Assets.xcassets */; };
+		613897501CCF1A490045A586 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6138974E1CCF1A490045A586 /* LaunchScreen.storyboard */; };
+		6138975B1CCF1A490045A586 /* SimallTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6138975A1CCF1A490045A586 /* SimallTests.m */; };
+		613897661CCF1A490045A586 /* SimallUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 613897651CCF1A490045A586 /* SimallUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		613897571CCF1A490045A586 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 613897351CCF1A490045A586 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6138973C1CCF1A490045A586;
+			remoteInfo = Simall;
+		};
+		613897621CCF1A490045A586 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 613897351CCF1A490045A586 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6138973C1CCF1A490045A586;
+			remoteInfo = Simall;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6138973D1CCF1A490045A586 /* Simall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Simall.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		613897411CCF1A490045A586 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		613897431CCF1A490045A586 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		613897441CCF1A490045A586 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		613897461CCF1A490045A586 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		613897471CCF1A490045A586 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6138974A1CCF1A490045A586 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6138974C1CCF1A490045A586 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6138974F1CCF1A490045A586 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		613897511CCF1A490045A586 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		613897561CCF1A490045A586 /* SimallTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimallTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6138975A1CCF1A490045A586 /* SimallTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimallTests.m; sourceTree = "<group>"; };
+		6138975C1CCF1A490045A586 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		613897611CCF1A490045A586 /* SimallUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimallUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		613897651CCF1A490045A586 /* SimallUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimallUITests.m; sourceTree = "<group>"; };
+		613897671CCF1A490045A586 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6138973A1CCF1A490045A586 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		613897531CCF1A490045A586 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6138975E1CCF1A490045A586 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		613897341CCF1A490045A586 = {
+			isa = PBXGroup;
+			children = (
+				6138973F1CCF1A490045A586 /* Simall */,
+				613897591CCF1A490045A586 /* SimallTests */,
+				613897641CCF1A490045A586 /* SimallUITests */,
+				6138973E1CCF1A490045A586 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6138973E1CCF1A490045A586 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6138973D1CCF1A490045A586 /* Simall.app */,
+				613897561CCF1A490045A586 /* SimallTests.xctest */,
+				613897611CCF1A490045A586 /* SimallUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6138973F1CCF1A490045A586 /* Simall */ = {
+			isa = PBXGroup;
+			children = (
+				613897431CCF1A490045A586 /* AppDelegate.h */,
+				613897441CCF1A490045A586 /* AppDelegate.m */,
+				613897461CCF1A490045A586 /* ViewController.h */,
+				613897471CCF1A490045A586 /* ViewController.m */,
+				613897491CCF1A490045A586 /* Main.storyboard */,
+				6138974C1CCF1A490045A586 /* Assets.xcassets */,
+				6138974E1CCF1A490045A586 /* LaunchScreen.storyboard */,
+				613897511CCF1A490045A586 /* Info.plist */,
+				613897401CCF1A490045A586 /* Supporting Files */,
+			);
+			path = Simall;
+			sourceTree = "<group>";
+		};
+		613897401CCF1A490045A586 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				613897411CCF1A490045A586 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		613897591CCF1A490045A586 /* SimallTests */ = {
+			isa = PBXGroup;
+			children = (
+				6138975A1CCF1A490045A586 /* SimallTests.m */,
+				6138975C1CCF1A490045A586 /* Info.plist */,
+			);
+			path = SimallTests;
+			sourceTree = "<group>";
+		};
+		613897641CCF1A490045A586 /* SimallUITests */ = {
+			isa = PBXGroup;
+			children = (
+				613897651CCF1A490045A586 /* SimallUITests.m */,
+				613897671CCF1A490045A586 /* Info.plist */,
+			);
+			path = SimallUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6138973C1CCF1A490045A586 /* Simall */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6138976A1CCF1A490045A586 /* Build configuration list for PBXNativeTarget "Simall" */;
+			buildPhases = (
+				613897391CCF1A490045A586 /* Sources */,
+				6138973A1CCF1A490045A586 /* Frameworks */,
+				6138973B1CCF1A490045A586 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Simall;
+			productName = Simall;
+			productReference = 6138973D1CCF1A490045A586 /* Simall.app */;
+			productType = "com.apple.product-type.application";
+		};
+		613897551CCF1A490045A586 /* SimallTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6138976D1CCF1A490045A586 /* Build configuration list for PBXNativeTarget "SimallTests" */;
+			buildPhases = (
+				613897521CCF1A490045A586 /* Sources */,
+				613897531CCF1A490045A586 /* Frameworks */,
+				613897541CCF1A490045A586 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				613897581CCF1A490045A586 /* PBXTargetDependency */,
+			);
+			name = SimallTests;
+			productName = SimallTests;
+			productReference = 613897561CCF1A490045A586 /* SimallTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		613897601CCF1A490045A586 /* SimallUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 613897701CCF1A490045A586 /* Build configuration list for PBXNativeTarget "SimallUITests" */;
+			buildPhases = (
+				6138975D1CCF1A490045A586 /* Sources */,
+				6138975E1CCF1A490045A586 /* Frameworks */,
+				6138975F1CCF1A490045A586 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				613897631CCF1A490045A586 /* PBXTargetDependency */,
+			);
+			name = SimallUITests;
+			productName = SimallUITests;
+			productReference = 613897611CCF1A490045A586 /* SimallUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		613897351CCF1A490045A586 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "张浩";
+				TargetAttributes = {
+					6138973C1CCF1A490045A586 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					613897551CCF1A490045A586 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 6138973C1CCF1A490045A586;
+					};
+					613897601CCF1A490045A586 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 6138973C1CCF1A490045A586;
+					};
+				};
+			};
+			buildConfigurationList = 613897381CCF1A490045A586 /* Build configuration list for PBXProject "Simall" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 613897341CCF1A490045A586;
+			productRefGroup = 6138973E1CCF1A490045A586 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6138973C1CCF1A490045A586 /* Simall */,
+				613897551CCF1A490045A586 /* SimallTests */,
+				613897601CCF1A490045A586 /* SimallUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6138973B1CCF1A490045A586 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				613897501CCF1A490045A586 /* LaunchScreen.storyboard in Resources */,
+				6138974D1CCF1A490045A586 /* Assets.xcassets in Resources */,
+				6138974B1CCF1A490045A586 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		613897541CCF1A490045A586 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6138975F1CCF1A490045A586 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		613897391CCF1A490045A586 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				613897481CCF1A490045A586 /* ViewController.m in Sources */,
+				613897451CCF1A490045A586 /* AppDelegate.m in Sources */,
+				613897421CCF1A490045A586 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		613897521CCF1A490045A586 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6138975B1CCF1A490045A586 /* SimallTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6138975D1CCF1A490045A586 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				613897661CCF1A490045A586 /* SimallUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		613897581CCF1A490045A586 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6138973C1CCF1A490045A586 /* Simall */;
+			targetProxy = 613897571CCF1A490045A586 /* PBXContainerItemProxy */;
+		};
+		613897631CCF1A490045A586 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6138973C1CCF1A490045A586 /* Simall */;
+			targetProxy = 613897621CCF1A490045A586 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		613897491CCF1A490045A586 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6138974A1CCF1A490045A586 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6138974E1CCF1A490045A586 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6138974F1CCF1A490045A586 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		613897681CCF1A490045A586 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		613897691CCF1A490045A586 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6138976B1CCF1A490045A586 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Simall/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhanghao.Simall;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6138976C1CCF1A490045A586 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Simall/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhanghao.Simall;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6138976E1CCF1A490045A586 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SimallTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhanghao.SimallTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Simall.app/Simall";
+			};
+			name = Debug;
+		};
+		6138976F1CCF1A490045A586 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SimallTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhanghao.SimallTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Simall.app/Simall";
+			};
+			name = Release;
+		};
+		613897711CCF1A490045A586 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SimallUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhanghao.SimallUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Simall;
+			};
+			name = Debug;
+		};
+		613897721CCF1A490045A586 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SimallUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhanghao.SimallUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Simall;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		613897381CCF1A490045A586 /* Build configuration list for PBXProject "Simall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				613897681CCF1A490045A586 /* Debug */,
+				613897691CCF1A490045A586 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6138976A1CCF1A490045A586 /* Build configuration list for PBXNativeTarget "Simall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6138976B1CCF1A490045A586 /* Debug */,
+				6138976C1CCF1A490045A586 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6138976D1CCF1A490045A586 /* Build configuration list for PBXNativeTarget "SimallTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6138976E1CCF1A490045A586 /* Debug */,
+				6138976F1CCF1A490045A586 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		613897701CCF1A490045A586 /* Build configuration list for PBXNativeTarget "SimallUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				613897711CCF1A490045A586 /* Debug */,
+				613897721CCF1A490045A586 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 613897351CCF1A490045A586 /* Project object */;
+}
