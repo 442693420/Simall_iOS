@@ -7,8 +7,9 @@
 //
 
 #import "AppDelegate.h"
-
+#import "MainTabBarViewController.h"
 @interface AppDelegate ()
+@property (nonatomic , strong)MainTabBarViewController *mainTabController;
 
 @end
 
@@ -17,7 +18,31 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    //智能键盘
+    IQKeyboardManager *manager = [IQKeyboardManager sharedManager];
+    manager.enable = YES;
+    manager.shouldResignOnTouchOutside = YES;
+    manager.shouldToolbarUsesTextFieldTintColor = YES;
+    manager.enableAutoToolbar = NO;
+    // Override point for customization after application launch.
+    self.window=[[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    self.mainTabController = [[MainTabBarViewController alloc]init];
+    self.window.rootViewController = self.mainTabController;
+    [self.window makeKeyAndVisible];
+    
+    //判断程序是不是第一次加载
+    if(![[NSUserDefaults standardUserDefaults] boolForKey:@"firstStart"]){
+        [[NSUserDefaults standardUserDefaults] setBool:YES forKey:@"firstStart"];
+        NSLog(@"第一次启动");
+        [[NSUserDefaults standardUserDefaults] setBool:YES forKey:kIsLoadingPic];
+        
+    }else{
+        NSLog(@"不是第一次启动");
+    }
+    
     return YES;
+    
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {
